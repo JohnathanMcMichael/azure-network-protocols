@@ -51,12 +51,37 @@ Observe your Resource Group. It should have the same contents as the image above
 Use Remote Desktop to connect to your Windows 10 Virtual Machine. 
 Within your Windows 10 Virtual Machine, Install Wireshark. 
 Open Wireshark and filter for ICMP traffic only. 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. 
 Observe ping requests and replies within WireShark. 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark. 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM. 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic. 
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity. 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using. 
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working). 
 Stop the ping activity. 
