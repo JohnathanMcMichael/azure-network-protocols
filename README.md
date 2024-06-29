@@ -31,7 +31,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hHLLclV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create a Resource Group. 
@@ -40,7 +40,7 @@ While creating the VM, select the previously created Resource Group.
 While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet. 
 Create a Linux (Ubuntu) VM. 
 While creating the VM, select the previously created Resource Group and Vnet. 
-Observe Your Virtual Network within Network Watcher. 
+Observe your Resource Group. It should have the same contents as the image above. 
 </p>
 <br />
 
